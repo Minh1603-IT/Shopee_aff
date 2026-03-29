@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Áo Form Rộng - Chính Hãng</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #ee4d2d; /* Màu cam Shopee */
+            --bg-color: #f5f5f5;
+            --text-color: #333;
+        }
+        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background-color: var(--bg-color); color: var(--text-color); padding-bottom: 80px; }
+        .wrapper { max-width: 480px; margin: 0 auto; background: #fff; min-height: 100vh; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+        
+        /* Hero Section */
+        .hero-img { width: 100%; display: block; }
+        .content { padding: 20px; }
+        .badge { background: var(--primary-color); color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; display: inline-block; margin-bottom: 10px; }
+        .title { font-size: 20px; font-weight: 700; line-height: 1.4; margin: 0 0 15px 0; }
+        .price-container { display: flex; align-items: baseline; gap: 10px; margin-bottom: 20px; }
+        .price-sale { color: var(--primary-color); font-size: 28px; font-weight: 700; }
+        .price-original { color: #888; text-decoration: line-through; font-size: 16px; }
+        
+        /* Lợi ích */
+        .benefits { background: #fff8f6; padding: 15px; border-radius: 8px; border: 1px dashed var(--primary-color); margin-bottom: 25px; }
+        .benefits ul { list-style: none; padding: 0; margin: 0; }
+        .benefits li { margin-bottom: 10px; padding-left: 24px; position: relative; font-size: 15px; }
+        .benefits li::before { content: "🔥"; position: absolute; left: 0; top: 0; }
+
+        /* Review Section */
+        .review-section { border-top: 6px solid #f5f5f5; padding: 20px; }
+        .review-title { font-size: 18px; font-weight: 700; margin-bottom: 15px; }
+        .review-card { border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 15px; }
+        .review-card:last-child { border-bottom: none; }
+        .user-info { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
+        .avatar { width: 32px; height: 32px; background: #ccc; border-radius: 50%; font-size: 12px; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; }
+        .stars { color: #ffce3d; font-size: 14px; }
+        .review-text { font-size: 14px; color: #555; line-height: 1.5; margin: 8px 0; }
+        .review-img { width: 80px; height: 80px; border-radius: 4px; object-fit: cover; }
+
+        /* Nút cố định dưới cùng */
+        .sticky-bottom { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 10px 0; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); display: flex; justify-content: center; z-index: 100; }
+        .btn-buy { background: var(--primary-color); color: white; text-decoration: none; padding: 15px 30px; border-radius: 8px; font-size: 18px; font-weight: bold; width: 90%; max-width: 440px; text-align: center; animation: pulse 1.5s infinite; }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <img src="https://via.placeholder.com/600x600/eee/999?text=Anh+San+Pham+Chinh" alt="Sản phẩm" class="hero-img">
+
+    <div class="content">
+        <div class="badge">BÁN CHẠY #1</div>
+        <h1 class="title">Set Áo Thun Form Rộng Phong Cách Hàn Quốc Dễ Phối Đồ</h1>
+        
+        <div class="price-container">
+            <div class="price-sale">149.000đ</div>
+            <div class="price-original">250.000đ</div>
+        </div>
+
+        <div class="benefits">
+            <ul>
+                <li>Chất liệu Cotton 100% dày dặn, thấm hút mồ hôi.</li>
+                <li>Form chuẩn Oversize, tôn dáng, che khuyết điểm tốt.</li>
+                <li>Hỗ trợ đổi trả trong 7 ngày nếu lỗi từ nhà sản xuất.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="review-section">
+        <h2 class="review-title">Đánh giá từ khách hàng (4.9/5)</h2>
+        
+        <div class="review-card">
+            <div class="user-info">
+                <div class="avatar" style="background: #e8a0a0;">N</div>
+                <div>
+                    <div style="font-weight: 600; font-size: 14px;">ngoclan_98</div>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <p class="review-text">Áo xịn lắm nha shop, vải sờ mát tay cực kỳ. Mặc đi học hay đi chơi đều hợp. Đóng gói cẩn thận, shipper nhiệt tình. Sẽ ủng hộ thêm!</p>
+            <img src="https://via.placeholder.com/150x150/eee/999?text=Anh+Khach+Feedback" class="review-img" alt="Feedback">
+        </div>
+
+        <div class="review-card">
+            <div class="user-info">
+                <div class="avatar" style="background: #9abce6;">T</div>
+                <div>
+                    <div style="font-weight: 600; font-size: 14px;">tuananh.tran</div>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <p class="review-text">Canh flash sale mua được giá quá rẻ so với chất lượng. Mọi người nên mua nhé, form lên chuẩn lắm luôn á.</p>
+        </div>
+    </div>
+</div>
+
+<div class="sticky-bottom">
+    <a href="#" class="btn-buy">👉 MUA NGAY TRÊN SHOPEE</a>
+</div>
+
+</body>
+</html>
