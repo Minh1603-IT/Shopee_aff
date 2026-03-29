@@ -15,8 +15,11 @@
         .wrapper { max-width: 480px; margin: 0 auto; background: #fff; min-height: 100vh; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
         
         /* Hero Section */
-        .hero-img { width: 100%; display: block; }
-        .content { padding: 20px; }
+        . /* Hero Section */
+        .hero-img { width: 100%; height: 400px; /* Giới hạn chiều cao tối đa của ảnh */
+        object-fit: cover; /* Tính năng ma thuật giúp ảnh tự động cắt gọn, không bị méo hình */
+        object-position: top; /* Ưu tiên hiển thị phần trên của ảnh (phần cổ áo/mặt mẫu) */
+        display: block;}
         .badge { background: var(--primary-color); color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; display: inline-block; margin-bottom: 10px; }
         .title { font-size: 20px; font-weight: 700; line-height: 1.4; margin: 0 0 15px 0; }
         .price-container { display: flex; align-items: baseline; gap: 10px; margin-bottom: 20px; }
